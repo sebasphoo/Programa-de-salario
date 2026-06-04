@@ -1,12 +1,12 @@
 class Animal: 
     def sonido(self):
         print("Hace un sonido")
-class  Perro(Animal):
+class  Gato(Animal):
     def sonido(self):
-        print("guau guau")   
+        print("miau miau")   
 
 animal = Animal()
-perro = Perro() 
+gato = Gato() 
 
 animal.sonido()
-perro.sonido()
+gato.sonido()
